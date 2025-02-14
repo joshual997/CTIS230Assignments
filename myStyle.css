@@ -24,3 +24,15 @@ body {
 h1 {
     font-style: italic;
 }
+a:link {
+    color:blue;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color:red;
+}
+a:active {
+    color:yellow;
+}
