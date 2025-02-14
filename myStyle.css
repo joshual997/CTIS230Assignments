@@ -15,3 +15,7 @@ h2 {
 em {
     background-color: palegreen;
 }
+body {
+    background-color:slategray;
+    font-size: 1.5em;
+}
