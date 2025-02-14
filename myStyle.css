@@ -19,6 +19,7 @@ em {
 body {
     background-color:slategray;
     font-size: 1.5em;
+    font-family: Cambria,Georgia,"Book Antiqua",serif
 }
 h1 {
     font-style: italic;
