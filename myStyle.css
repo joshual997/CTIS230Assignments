@@ -3,7 +3,14 @@ body {
 }
 h2 {
     color:green
+    
 }
 strong {
     color:orange
+}
+h2 {
+    background-color: lightsalmon;
+}
+em {
+    background-color: palegreen;
 }
