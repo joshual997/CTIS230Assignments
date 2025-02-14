@@ -10,6 +10,7 @@ strong {
 }
 h2 {
     background-color: lightsalmon;
+    width: fit-content;
 }
 em {
     background-color: palegreen;
