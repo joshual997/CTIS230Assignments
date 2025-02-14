@@ -25,7 +25,7 @@ h1 {
     font-style: italic;
 }
 a:link {
-    color:blue;
+    background-color:purple;
 }
 a:visited {
     color:black;
