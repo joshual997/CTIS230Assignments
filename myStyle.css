@@ -48,6 +48,8 @@ p.intro {
 }
 img#beyonceImage{
     width:20%;
+    float: left;
+    float: right;
 }
 img#dreamTeam{
     width:20%;
