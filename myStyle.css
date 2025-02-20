@@ -42,3 +42,12 @@ h1, h2{
 p strong {
     color:purple;
 }
+p.intro { 
+    font-style: italic;
+}
+img#beyonceImage{
+    width:20%;
+}
+img#dreamTeam{
+    width:20%;
+}
