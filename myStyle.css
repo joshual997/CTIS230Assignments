@@ -23,6 +23,7 @@ body {
 }
 h1 {
     font-style: italic;
+    width: 600px;
 }
 a:link {
     background-color:purple;
@@ -50,4 +51,19 @@ img#beyonceImage{
 }
 img#dreamTeam{
     width:20%;
+}
+h2 {
+padding-bottom: 20px;
+margin: 5px;
+}
+body {
+margin-left: 20px;
+margin-right: 20px;
+}
+.grouped-paragraph {
+padding-left: 10px;
+font-style: oblique;
+font: arial;
+font-size: 1.2em;
+
 }
