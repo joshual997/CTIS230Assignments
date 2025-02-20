@@ -73,3 +73,8 @@ width:20%;
 float: right;
 
 }
+
+div.flexible {
+    display:flex;
+    
+}
