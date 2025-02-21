@@ -74,7 +74,7 @@ float: right;
 
 }
 
-header.header {
-    display:flex;
-
+img#BillJoel {
+    float: right;
+    width:20%;
 }
