@@ -81,16 +81,41 @@ img#BillJoel {
 
 
 
-div.flexible {
+header.flexible {
     margin:0;
     padding:0;
     list-style-type: none;
     display:flex;
     justify-content: center;
+   
+}
+
+header.flexible li a {
     display:block;
     border:1px solid;
     border-radius: .5em;
     padding: .5em 1em;
     margin: .5em;
 }
+
+footer.Info {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+
+}
+
+footer.Info li a {
+    display:block;
+    border:1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em;
+
+}
+
+
+
 
