@@ -78,3 +78,10 @@ img#BillJoel {
     float: right;
     width:20%;
 }
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display:flex;
+}
