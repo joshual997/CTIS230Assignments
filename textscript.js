@@ -4,5 +4,5 @@ myitem.addEventListener("click", onClick);
 
 function onClick() {  
     myitem.style.color = "green";  
-    myitem.style.fontSize = "36px";
+    myitem.style.fontSize = "50px";
 }
