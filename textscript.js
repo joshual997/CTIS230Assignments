@@ -4,4 +4,5 @@ myitem.addEventListener("click", onClick);
 
 function onClick() {  
     myitem.style.color = "green";  
+    myitem.style.font = "arial"
 }
