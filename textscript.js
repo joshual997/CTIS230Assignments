@@ -20,7 +20,7 @@ function onButtonClick() {
 }
 
 thebutton2 = document.getElementById("thebutton2")
-otheritem = document.getElementById("buttontest2")
+otheritem2 = document.getElementById("buttontest2")
 thebutton2.addEventListener("click", onButtonClick);
 function onButtonClick() {
     otheritem.style.color = "yellow";
