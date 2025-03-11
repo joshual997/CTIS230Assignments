@@ -23,7 +23,7 @@ thebutton2 = document.getElementById("thebutton2")
 otheritem2 = document.getElementById("buttontest2")
 thebutton2.addEventListener("click", onButtonClick);
 function onButtonClick() {
-    otheritem2.style.color = "yellow";
+    otheritem2.style.fontStyle = "Italic";
 }
 
 textentry = document.getElementById("myinput");
