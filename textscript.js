@@ -18,3 +18,10 @@ thebutton.addEventListener("click", onButtonClick);
 function onButtonClick() {
     otheritem.style.color = "red";
 }
+
+thebutton = document.getElementById("thebutton2")
+otheritem = document.getElementById("buttontest2")
+thebutton2.addEventListener("click", onButtonClick);
+function onButtonClick() {
+    otheritem.style.color = "yellow";
+}
