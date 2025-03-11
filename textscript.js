@@ -11,3 +11,9 @@ function onmouseout() {
     myitem.style.color = "";
     myitem.style.fontSize = "";
 }
+thebutton = document.getElementById("thebutton");
+otheritem = document.getElementById("buttontest");
+thebutton.addEventListener("click", onButtonClick);
+function onButtonClick() {
+    otheritem.style.color = "red";
+}
