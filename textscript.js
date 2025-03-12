@@ -1,7 +1,7 @@
 myitem = document.getElementById("firsttest");
 // this returns a single element based on that elements id
 
-myitem.addEventListener("click", onClick);
+myitem.addEventListener("click", onClick1);
 // specify the event and the funtion to be executed
 function onClick() {  
     myitem.style.color = "green";  
@@ -17,7 +17,7 @@ function onmouseout() {
 
 thebutton = document.getElementById("thebutton");
 otheritem = document.getElementById("buttontest");
-thebutton.addEventListener("click", onButtonClick);
+thebutton.addEventListener("click", onButtonClick1);
 function onButtonClick() {
     otheritem.style.color = "red";
 }
@@ -31,13 +31,13 @@ function onChange() {
 
 thebutton2 = document.getElementById("thebutton2");
 otheritem2 = document.getElementById("buttontest2");
-thebutton2.addEventListener("click", onButtonClick);
+thebutton2.addEventListener("click", onButtonClick2);
 function onButtonClick() {
     otheritem2.style.color = "Yellow";
 }
 
 myitem2 = document.getElementById("supertest");
-myitem2.addEventListener("click", onClick);
+myitem2.addEventListener("click", onClick2);
 function onClick() {
     myitem2.style.color = "orange";
 }
