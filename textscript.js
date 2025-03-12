@@ -1,9 +1,12 @@
 myitem = document.getElementById("firsttest");
+// this returns a single element based on that elements id
 
 myitem.addEventListener("click", onClick);
+// specify the event and the funtion to be executed
 function onClick() {  
     myitem.style.color = "green";  
     myitem.style.fontSize = "50px";
+    // these are the results of what happens when the event is executed, changes color and font size
 }
 
 myitem.addEventListener("mouseout", onmouseout);
@@ -31,4 +34,10 @@ otheritem2 = document.getElementById("buttontest2")
 thebutton2.addEventListener("click", onButtonClick);
 function onButtonClick() {
     otheritem2.style.color = "Yellow";
+}
+
+myitem = document.getElementById("supertest");
+myitem.addEventListener("click", onClick);
+function onClick() {
+    myitem.style.color = "orange"
 }
