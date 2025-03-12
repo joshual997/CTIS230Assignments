@@ -36,8 +36,8 @@ function onButtonClick() {
     otheritem2.style.color = "Yellow";
 }
 
-myitem = document.getElementById("supertest");
-myitem.addEventListener("click", onClick);
+myitem2 = document.getElementById("supertest");
+myitem2.addEventListener("click", onClick);
 function onClick() {
     myitem.style.color = "orange";
 }
