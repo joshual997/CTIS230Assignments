@@ -29,8 +29,8 @@ function onChange() {
     otheritem.innerHTML = newtext;
 }
 
-thebutton2 = document.getElementById("thebutton2")
-otheritem2 = document.getElementById("buttontest2")
+thebutton2 = document.getElementById("thebutton2");
+otheritem2 = document.getElementById("buttontest2");
 thebutton2.addEventListener("click", onButtonClick);
 function onButtonClick() {
     otheritem2.style.color = "Yellow";
@@ -39,5 +39,5 @@ function onButtonClick() {
 myitem = document.getElementById("supertest");
 myitem.addEventListener("click", onClick);
 function onClick() {
-    myitem.style.color = "orange"
+    myitem.style.color = "orange";
 }
