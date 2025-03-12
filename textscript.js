@@ -25,3 +25,10 @@ function onChange() {
     newtext = myinput.value;
     otheritem.innerHTML = newtext;
 }
+
+thebutton2 = document.getElementById("thebutton2")
+otheritem2 = document.getElementById("buttontest2")
+thebutton2.addEventListener("click", onButtonClick);
+function onButtonClick() {
+    otheritem2.style.color = "Yellow";
+}
