@@ -3,7 +3,7 @@ myitem = document.getElementById("firsttest");
 
 myitem.addEventListener("click", onClick1);
 // specify the event and the funtion to be executed
-function onClick() {  
+function onClick1() {  
     myitem.style.color = "green";  
     myitem.style.fontSize = "50px";
     // these are the results of what happens when the event is executed, changes color and font size
@@ -18,7 +18,7 @@ function onmouseout() {
 thebutton = document.getElementById("thebutton");
 otheritem = document.getElementById("buttontest");
 thebutton.addEventListener("click", onButtonClick1);
-function onButtonClick() {
+function onButtonClick1() {
     otheritem.style.color = "red";
 }
 
@@ -32,12 +32,12 @@ function onChange() {
 thebutton2 = document.getElementById("thebutton2");
 otheritem2 = document.getElementById("buttontest2");
 thebutton2.addEventListener("click", onButtonClick2);
-function onButtonClick() {
+function onButtonClick2() {
     otheritem2.style.color = "Yellow";
 }
 
 myitem2 = document.getElementById("supertest");
 myitem2.addEventListener("click", onClick2);
-function onClick() {
+function onClick2() {
     myitem2.style.color = "orange";
 }
