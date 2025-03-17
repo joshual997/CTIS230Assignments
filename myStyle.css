@@ -53,6 +53,21 @@ img#beyonceImage{
 img#dreamTeam{
     width:20%;
 }
+@media (oreintation: portrait) {
+    img#dreamTeam{
+        padding: 15px;
+        height: 200px;
+    }
+}
+
+@media (oreintation: landscape) {
+    img#dreamTeam{
+        padding: 25px;
+        width: 300px;
+    }
+}
+
+
 h2 {
 padding-bottom: 20px;
 margin: 5px;
