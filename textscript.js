@@ -42,11 +42,15 @@ function onClick2() {
     myitem2.style.color = "orange";
 }
 
-function toggleSize() {
-    let img = document.getElementById("SpanishPic");
-    if (img.style.width === "150px") {
-        img.style.width = "300px;"
-    } else {
-        img.style.width = "150px";
-    }
+
+myitem3 = document.getElementById("SpanishPic");
+myitem3.addEventListener("click", onClick3)
+function onClick3() {
+    myitem3.width = "300px";
+
+}
+
+myitem3.addEventListener("click", OnClick4)
+function onClick4() {
+    myitem3.width = "";
 }
