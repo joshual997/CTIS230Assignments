@@ -53,14 +53,14 @@ img#beyonceImage{
 img#dreamTeam{
     width:20%;
 }
-@media (oreintation: portrait) {
+@media (orientation: portrait) {
     img#dreamTeam{
         padding: 15px;
         height: 200px;
     }
 }
 
-@media (oreintation: landscape) {
+@media (orientation: landscape) {
     img#dreamTeam{
         padding: 25px;
         width: 300px;
@@ -143,6 +143,104 @@ footer.Info li a {
     margin: .5em;
 
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+     .Incontainer {
+        max-width: 80%;
+        }
+     .Incolumn {
+         flex: 1 1 45%;
+        }
+    }
+
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .Informal {
+        font-size: 16px;
+    }
+    .Incontainer {
+         padding: 10px;
+         flex-direction: column
+        }
+    .Incolumn {
+        width: 100%;
+        padding:15px;
+        }
+    h1 {
+        text-align: center;
+    }
+    }
+
+@media (max-width: 768px) and (orientation: landscape) {
+     .Informal {
+       font-size: 14px;
+     }
+     .Incontainer {
+      justify-content: center;
+      flex-direction: row;
+          }
+     .Incolumn {
+      flex: 1 1 45%;
+         }
+     h1 {
+        text-align: left;
+         font-size: 20px;
+        }
+        }
+
+ @media (min-width: 1024px) and (max-width: 1440px) {
+     .Songcontainer {
+         max-width: 80%;
+           }
+     .Songcolumn {
+         flex: 1 1 45%;
+           }
+       }
+
+ @media (max-width: 768px) and (orientation: portrait ) {
+    .Song {
+      font-size: 16px;
+        }
+     .Songcontainer {
+     padding: 10px;
+     flex-direction: column;
+            }
+     .Songcolumn {
+      width: 100%;
+     padding:15px;
+        }
+    h1 {
+        text-align: center;
+    }
+        
+    }
+
+
+ @media (max-width: 768px) and (orientation: landscape ) {
+    .Song {
+     font-size: 14px;
+         }
+    .Songcontainer {
+     justify-content: center;
+     flex-direction: row;
+         }
+     .Songcolumn {
+    flex: 1 1 45%;
+    }
+     h1 {
+    text-align: left;
+    font-size: 20px;
+        }
+            
+        }
+    
+    
+
+
+
+
+
+
 
 
 
