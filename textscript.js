@@ -33,7 +33,7 @@ thebutton2 = document.getElementById("thebutton2");
 otheritem2 = document.getElementById("buttontest2");
 thebutton2.addEventListener("click", onButtonClick2);
 function onButtonClick2() {
-    otheritem2.style.color = "Yellow";
+    otheritem2.style.color = "yellow";
 }
 
 myitem2 = document.getElementById("supertest");
