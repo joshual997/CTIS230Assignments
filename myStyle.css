@@ -240,6 +240,12 @@ footer.Info li a {
         }
             
         }
+
+.resize {
+    width: 150px;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out
+}
     
     
 

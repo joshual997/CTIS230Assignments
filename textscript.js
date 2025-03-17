@@ -41,3 +41,12 @@ myitem2.addEventListener("click", onClick2);
 function onClick2() {
     myitem2.style.color = "orange";
 }
+
+function toggleSize() {
+    let img = document.getElementById("SpanishPic");
+    if (img.style.width === "150px") {
+        img.style.width = "300px;"
+    } else {
+        img.style.width = "150px";
+    }
+}
